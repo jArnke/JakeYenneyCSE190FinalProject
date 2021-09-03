@@ -58,7 +58,7 @@ def buildModel(X, Y):
                   metrics=['accuracy'])
     return model
 
-retrain = False
+retrain = True
 length = 5
 X, Y, Xtest, Ytest = dataPipeline.createRNNData("data/genres", length)
 
