@@ -1,2 +1,0 @@
-model_checkpoint_path: "trained-weights-genres-LSTM-30epochs"
-all_model_checkpoint_paths: "trained-weights-genres-LSTM-30epochs"
