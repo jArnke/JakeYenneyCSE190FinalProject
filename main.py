@@ -58,7 +58,7 @@ def buildModel(X, Y):
 
 #load data:
 length = 15
-retrain = False
+retrain = True
 X, Y, Xtest, Ytest = dataPipeline.createCNNData("data/genres", length)
 
 #Train the model and save the weights:
