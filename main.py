@@ -148,5 +148,3 @@ classes = ["blues", "classical", "country", "disco", "hiphop", "jazz", "metal", 
 confusion = np.array(confusion)
 plot_confusion_matrix(confusion, classes)
 
-from sklearn import metrics
-
